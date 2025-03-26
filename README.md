@@ -49,27 +49,35 @@ We developed a full-stack web application using Next.js for seamless client-side
 - **UI Responsiveness:** Balancing a feature-rich interface with smooth animations and responsive design across devices.  
 - **API Integration:** Coordinating frontend interactions with a backend API for seamless data flow and error handling.
 
-## 🏃 How to Run
+## 🏃 How to Run Frontend 
 1. **Clone the Repository**  
    ```sh
    git clone https://github.com/your-repo.git
    ```
 2. **Install Dependencies**  
    ```sh
-   npm install
-  ``
-3. **Run the Backend (Assumed)**  
-   Ensure a backend server is running at `http://localhost:3001`. For example:  
-  
-   # Example for a Node.js backend
+   cd code/Gen AI/frontend
+   pnpm install
+   ```
+3. **Run the Backend (Assumed)**
     ```sh
-   cd backend && npm start
-  ``
-4. **Run the Frontend**  
- ```sh
-   npm run dev
-  ```
-5. Open your browser at `http://localhost:3000`.
+   pnpm dev
+   ```
+   Ensure a backend server is running at `http://localhost:3001`.
+  
+## 🏃 How to Run Frontend 
+1. **Install Dependencies**  
+   ```sh
+   cd code/Gen AI/backend
+   npm install
+   ```
+2. **Run the Backend (Assumed)**
+    ```sh
+   node server.js
+   ```
+   Ensure a backend server is running at `http://localhost:3003`. 
+  
+
 
 ## 🏗️ Tech Stack
 - **Frontend:** Next.js (React), TypeScript, Tailwind CSS  
@@ -78,7 +86,8 @@ We developed a full-stack web application using Next.js for seamless client-side
 - **APIs:** RESTful endpoints for file uploads and rule management  
 - **Other:** Lucide React (icons), Dynamic Imports for performance optimization
 
-## 👥 Team
+[## 👥 Team
 - **Maheshwari Kalichamy** - [github](mahe-kalichamy) | [LinkedIn]([#](https://www.linkedin.com/in/maheshwari-kalichamy-3495aa251))
+- **Karthik Dupakuntla** - [LinkedIn]([#](https://www.linkedin.com/in/karthik-dupakuntla-1b638b11/))
 - **Sudarssan N** - [github](sudarssan-n) | [LinkedIn]([#](https://in.linkedin.com/in/sudarssan-n-a7aaa91bb))
--  **Naveen Venugopal** - [github](naveen-2003-glitch) | [LinkedIn]([#](https://in.linkedin.com/in/naveen-venugopal-1225151bb))
+-  **Naveen Venugopal** - [github](naveen-2003-glitch) | [LinkedIn]([#](https://in.linkedin.com/in/naveen-venugopal-1225151bb))]
