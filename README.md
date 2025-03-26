@@ -89,7 +89,8 @@ We developed a full-stack web application using Next.js for seamless client-side
 - **Other:** Lucide React (icons), Dynamic Imports for performance optimization
 
 [## 👥 Team
-- **Maheshwari Kalichamy** - [github](mahe-kalichamy) | [LinkedIn]([#](https://www.linkedin.com/in/maheshwari-kalichamy-3495aa251))
-- **Karthik Dupakuntla** - [LinkedIn]([#](https://www.linkedin.com/in/karthik-dupakuntla-1b638b11/))
-- **Sudarssan N** - [github](sudarssan-n) | [LinkedIn]([#](https://in.linkedin.com/in/sudarssan-n-a7aaa91bb))
--  **Naveen Venugopal** - [github](naveen-2003-glitch) | [LinkedIn]([#](https://in.linkedin.com/in/naveen-venugopal-1225151bb))]
+- **Maheshwari Kalichamy** - [GitHub](https://github.com/mahe-kalichamy) | [LinkedIn](https://www.linkedin.com/in/maheshwari-kalichamy-3495aa251)  
+- **Karthik Dupakuntla** - [LinkedIn](https://www.linkedin.com/in/karthik-dupakuntla-1b638b11/)
+- **Sudarssan N** - [GitHub](https://github.com/sudarssan-n) | [LinkedIn](https://in.linkedin.com/in/sudarssan-n-a7aaa91bb)  
+- **Naveen Venugopal** - [GitHub](https://github.com/naveen-2003-glitch) | [LinkedIn](https://in.linkedin.com/in/naveen-venugopal-1225151bb)  
+
