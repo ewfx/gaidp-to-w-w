@@ -42,24 +42,24 @@ We developed a full-stack web application using Next.js for seamless client-side
 
 ## 🏃 How to Run
 1. **Clone the Repository**  
-   \`\`\`sh
+   ```sh
    git clone https://github.com/your-repo.git
-   \`\`\`
+   ```
 2. **Install Dependencies**  
-   \`\`\`sh
+   ```sh
    npm install
-   \`\`\`
+  ```
 3. **Run the Backend (Assumed)**  
    Ensure a backend server is running at \`http://localhost:3001\`. For example:  
-   \`\`\`sh
+  ```sh
    # Example for a Node.js backend
    cd backend && npm start
-   \`\`\`
+  ```
 4. **Run the Frontend**  
-   \`\`\`sh
+ ```sh
    npm run dev
-   \`\`\`
-5. Open your browser at \`http://localhost:3000\`.
+  ```
+5. Open your browser at `http://localhost:3000`.
 
 ## 🏗️ Tech Stack
 - **Frontend:** Next.js (React), TypeScript, Tailwind CSS  
