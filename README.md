@@ -48,13 +48,14 @@ We developed a full-stack web application using Next.js for seamless client-side
 2. **Install Dependencies**  
    ```sh
    npm install
-  ```
+  ``
 3. **Run the Backend (Assumed)**  
-   Ensure a backend server is running at \`http://localhost:3001\`. For example:  
-  ```sh
+   Ensure a backend server is running at `http://localhost:3001`. For example:  
+  
    # Example for a Node.js backend
+    ```sh
    cd backend && npm start
-  ```
+  ``
 4. **Run the Frontend**  
  ```sh
    npm run dev
