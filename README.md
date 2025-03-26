@@ -16,11 +16,16 @@
 ## 🎯 Introduction
 The **Banking Regulatory Compliance Platform** is an AI-powered solution designed to streamline regulatory compliance for financial institutions. It automates document analysis, rule extraction, validation, and transaction data profiling to ensure adherence to banking regulations such as KYC (Know Your Customer) and AML (Anti-Money Laundering). This project addresses the problem of time-consuming manual compliance processes by leveraging modern web technologies and AI.
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 [Video Demo]([#](https://drive.google.com/file/d/1DO-Uj6YmKLjXbRI6ugxNdlBsdvWhHYEg/view?usp=sharing)) (if applicable)  
 🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+![Home](https://github.com/user-attachments/assets/9f0b0904-b97d-44a8-8570-d00ed66dccde)
+
+![RuleValidation](https://github.com/user-attachments/assets/e68f8e51-7a93-4323-8be1-4e94168d9f19)
+
+![Data Profiling](https://github.com/user-attachments/assets/e441fab0-2a14-48bb-afb3-65d937fe60b7)
+
+
 
 ## 💡 Inspiration
 The inspiration for this project stemmed from the increasing regulatory pressures faced by banks and financial institutions. Manual compliance processes are error-prone, costly, and slow. We aimed to create a tool that simplifies these workflows, reduces human error, and provides actionable insights using AI-driven automation.
