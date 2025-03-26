@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Banking Regulatory Complaince Platform
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,8 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
-
+The **Banking Regulatory Compliance Platform** is an AI-powered solution designed to streamline regulatory compliance for financial institutions. It automates document analysis, rule extraction, validation, and transaction data profiling to ensure adherence to banking regulations such as KYC (Know Your Customer) and AML (Anti-Money Laundering). This project addresses the problem of time-consuming manual compliance processes by leveraging modern web technologies and AI.
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
@@ -24,37 +23,52 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+The inspiration for this project stemmed from the increasing regulatory pressures faced by banks and financial institutions. Manual compliance processes are error-prone, costly, and slow. We aimed to create a tool that simplifies these workflows, reduces human error, and provides actionable insights using AI-driven automation.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+- **Document Upload:** Allows users to upload regulatory documents (PDF, Word, TXT) for automated analysis.  
+- **Rule Validation:** Extracts rules from documents, enables multi-modal cross-validation, and lets users mark rules as validated or pending.  
+- **Data Profiling:** Processes transaction data (CSV) to assess compliance risks, categorize transactions (e.g., high-risk, medium-risk, compliant), and provide detailed summaries.  
+- **User-Friendly Interface:** Offers intuitive filtering, searching, and visualization of compliance data.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+We developed a full-stack web application using Next.js for seamless client-side rendering and server-side capabilities. The frontend leverages reusable UI components from a custom library (\`@/components/ui\`), while the backend handles file uploads and rule processing via RESTful APIs. The platform integrates with an AI backend (assumed at \`localhost:3001\`) for document parsing and compliance analysis.  
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+- **File Upload Handling:** Ensuring robust handling of various file types (CSV, PDF, etc.) and managing large uploads without performance degradation.  
+- **Dynamic Filtering:** Implementing real-time filtering for rules and transaction data with multiple criteria (e.g., risk level, category).  
+- **UI Responsiveness:** Balancing a feature-rich interface with smooth animations and responsive design across devices.  
+- **API Integration:** Coordinating frontend interactions with a backend API for seamless data flow and error handling.
 
 ## 🏃 How to Run
-1. Clone the repository  
-   ```sh
+1. **Clone the Repository**  
+   \`\`\`sh
    git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+   \`\`\`
+2. **Install Dependencies**  
+   \`\`\`sh
+   npm install
+   \`\`\`
+3. **Run the Backend (Assumed)**  
+   Ensure a backend server is running at \`http://localhost:3001\`. For example:  
+   \`\`\`sh
+   # Example for a Node.js backend
+   cd backend && npm start
+   \`\`\`
+4. **Run the Frontend**  
+   \`\`\`sh
+   npm run dev
+   \`\`\`
+5. Open your browser at \`http://localhost:3000\`.
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- **Frontend:** Next.js (React), TypeScript, Tailwind CSS  
+- **UI Components:** Custom library (\`@/components/ui\`) with Button, Card, Input, Tabs, etc.  
+- **Backend:** Node.js (assumed, based on API endpoints like \`/api/upload-data\`)  
+- **APIs:** RESTful endpoints for file uploads and rule management  
+- **Other:** Lucide React (icons), Dynamic Imports for performance optimization
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Maheshwari Kalichamy** - [github](mahe-kalichamy) | [LinkedIn]([#](https://www.linkedin.com/in/maheshwari-kalichamy-3495aa251))
+- **Sudarssan N** - [github](sudarssan-n) | [LinkedIn]([#](https://in.linkedin.com/in/sudarssan-n-a7aaa91bb))
+-  **Naveen Venugopal** - [github](naveen-2003-glitch) | [LinkedIn]([#](https://in.linkedin.com/in/naveen-venugopal-1225151bb))
